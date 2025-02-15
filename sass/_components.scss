@@ -3,16 +3,36 @@
 
 .logo{
     height: 3.25rem;
+    margin-left: 3rem;
 }
 // SEARCH
 
 .search{
+    float: 0 0 40%;
+    background-color: blue;
 
     &__input{
-        
+        font-family: inherit;
+        font-size: inherit;
+        background-color: var(--color-grey-light-2);
+        border: none;
+        padding: 0.7rem 2rem;
+        border-radius: 100px;
+        width: 90%;
+
+        &:focus{
+            outline: none;
+            width: 100%;
+            background-color: var(--color-grey-light-3);
+        }
     }
     &__button{
-        
+        border: none;
+        background-color: var(--color-grey-light-2);
+
+        &{
+            outline: none;
+        }
     }
     &__icon{
         height: 2rem;
